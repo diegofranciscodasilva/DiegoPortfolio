@@ -91,3 +91,15 @@ themeButton.addEventListener("click", () => {
     localStorage.setItem("selected-theme", getCurrentTheme())
     localStorage.setItem("selected-icon", getCurrentIcon())
 })
+
+const sr = ScrollReveal({
+    origin: "top",
+    distance: "60px",
+    duration: 2500,
+    delay: 400,
+    // reset: true // animation repeat
+})
+
+sr.reveal(`.home_perfil, .about_image, .contact_mail`, { origin: "right" })
+sr.reveal(`.home_name, .home_info, .about_container .section_title-1, .about_info, .contact_social, .contact_data`, { origin: "left" })
+sr.reveal(`.services_card, .projects_card`, { interval: 100 })

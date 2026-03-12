@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Diego Francisco da Silva">
+    <meta name="description" content="Portfólio pessoal de Diego Francisco da Silva">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfólio, Web Design">
     <link rel="shortcut icon" href="/assets/images/pesquisa.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
         integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
@@ -25,10 +30,13 @@
                 <h3 class="nav_name">Diego</h3>
                 <ul class="nav_list">
                     <li class="nav_item">
-                        <a href="#home" class="nav_link">Home</a>
+                        <a href="#home" class="nav_link active-link">Home</a>
                     </li>
                     <li class="nav_item">
                         <a href="#about" class="nav_link">Sobre</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link">Serviços</a>
                     </li>
                     <li class="nav_item">
                         <a href="#projects" class="nav_link">Projetos</a>
@@ -42,6 +50,7 @@
                 </div>
             </div>
             <div class="nav_buttons">
+                <i class="ri-moon-line change_theme" id="theme-button"></i>
                 <div class="nav_toggle" id="nav_toggle">
                     <i class="ri-menu-4-line"></i>
                 </div>
@@ -133,7 +142,7 @@
         </section>
         <section class="services section" id="services">
             <h2 class="section_title-1">
-                <span>Projetos</span>
+                <span>Serviços</span>
             </h2>
             <div class="services_container container grid">
                 <article class="services_card">
@@ -260,7 +269,7 @@
             </div>
         </section>
         <section class="contact section" id="contact">
-            <div class="contact_container grid">
+            <div class="contact_container container grid">
                 <div class="contact_data">
                     <h2 class="section_title-2">
                         <span>Contato</span>
@@ -298,6 +307,7 @@
                                 placeholder="Digite sua mensagem..." required></textarea>
                             <label for="message" class="contact_label">Mensagem</label>
                         </div>
+                        <p class="contact_message" id="contact-message">Mensagem enviada com sucesso 💾</p>
                         <button type="submit" class="contact_button button">
                             <i class="ri-send-plane-line"></i> Enviar
                         </button>
@@ -308,8 +318,8 @@
                         class="contact_social-arrow">
                     <div class="contact_social-data">
                         <div>
-                            <p class="contact_social-description">Não envia e-mails</p>
-                            <p class="contact_social-description">Entre em contato em minhas redes sociais</p>
+                            <p class="contact_social-description-1">Não envia e-mails</p>
+                            <p class="contact_social-description-2">Entre em contato em minhas redes sociais</p>
                         </div>
                         <div class="contact_social-links">
                             <a href="https://github.com/diegofranciscodasilva" target="_blank"
@@ -325,8 +335,25 @@
         </section>
     </main>
     <footer class="footer">
-
+        <div class="footer_container container grid">
+            <ul class="footer_links">
+                <li>
+                    <a href="#about" class="footer_link">Sobre</a>
+                </li>
+                <li>
+                    <a href="#services" class="footer_link">Serviços</a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer_link">Projetos</a>
+                </li>
+            </ul>
+            <span class="footer_copy">Feito com ❤️ por <a href="#">Diego.</a> &#169;</span>
+        </div>
     </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="/assets/js/script.js"></script>
 </body>
 

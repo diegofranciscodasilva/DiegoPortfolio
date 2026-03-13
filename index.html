@@ -284,8 +284,10 @@
                 </div>
                 <div class="contact_mail">
                     <h2 class="contact_title">Enviar Mensagem</h2>
-                    <form action="mailto:diegofranciscodasilva@yahoo.com.br" method="POST" enctype="text/plain"
+                    <form action="https://formsubmit.co/diegofranciscodasilva@yahoo.com.br" method="POST"
                         class="contact_form" id="contact-form">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
                         <div class="contact_group">
                             <div class="contact_box">
                                 <input type="text" name="user_name" class="contact_input" id="name"
@@ -293,7 +295,7 @@
                                 <label for="name" class="contact_label">Nome</label>
                             </div>
                             <div class="contact_box">
-                                <input type="email" name="user_email" class="contact_input" id="email"
+                                <input type="email" name="email" class="contact_input" id="email"
                                     placeholder="Digite seu e-mail..." required>
                                 <label for="email" class="contact_label">E-mail</label>
                             </div>
@@ -354,7 +356,6 @@
         <i class="ri-arrow-up-s-line"></i>
     </a>
     <script src="/assets/js/scrollreveal.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="/assets/js/script.js"></script>
 </body>
 

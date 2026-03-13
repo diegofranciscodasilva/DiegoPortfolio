@@ -27,24 +27,6 @@ const shadowHeader = () => {
 }
 window.addEventListener("scroll", shadowHeader)
 
-const contactForm = document.getElementById("contact-form")
-const contactMessage = document.getElementById("contact-message")
-const sendEmail = (e) => {
-    e.preventDefault()
-
-    emailjs.sendForm("service_8yvwsoh", "template_bf8sk0p", "#contact-form", "090hj4xBN59VEhOvj")
-        .then(() => {
-            contactMessage.textContent = "Mensagem enviada com sucesso 💾"
-            setTimeout(() => {
-                contactMessage.textContent = ""
-            }, 5000)
-            contactForm.reset()
-        }, () => {
-            contactMessage.textContent = "A mensagem não foi enviada (service error) 🛠️"
-        })
-}
-contactForm.addEventListener("submit", sendEmail)
-
 const scrollUp = () => {
     const scrollUp = document.getElementById("scroll-up")
     this.scrollY >= 350 ? scrollUp.classList.add("show-scroll") : scrollUp.classList.remove("show-scroll")

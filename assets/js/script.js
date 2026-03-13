@@ -39,7 +39,7 @@ const scrollActive = () => {
 
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight,
-            sectionTop = current.offsetTop - 72,//58
+            sectionTop = current.offsetTop - 72,
             sectionId = current.getAttribute("id"),
             sectionsClass = document.querySelector(".nav_menu a[href*=" + sectionId + "]")
 
@@ -79,7 +79,6 @@ const sr = ScrollReveal({
     distance: "60px",
     duration: 2500,
     delay: 400,
-    // reset: true // animation repeat
 })
 
 sr.reveal(`.home_perfil, .about_image, .contact_mail`, { origin: "right" })

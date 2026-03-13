@@ -25,7 +25,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
 - **JavaScript (ES6+)**: Lógica para interações, menu mobile, tema escuro/claro e links ativos.
 - **[Remix Icon](https://remixicon.com/)**: Biblioteca de ícones utilizada para interface e redes sociais.
 - **[ScrollReveal.js](https://scrollrevealjs.org/)**: Biblioteca para animações suaves de entrada dos elementos ao rolar a página.
-- **Google Fonts**: Fonte _Bai Jamjuree_ para tipografia moderna.
+- **[Google Fonts](https://fonts.google.com/)**: Fonte _Bai Jamjuree_ para tipografia moderna.
 
 ---
 
@@ -67,9 +67,9 @@ O site está dividido nas seguintes seções:
 
 Desenvolvedor Front-End em formação e estudante de Engenharia de Software.
 
-- **LinkedIn**: Diego Francisco da Silva
-- **GitHub**: @diegofranciscodasilva
-- **Instagram**: @diego_francisco_da_silva
+- **[LinkedIn](https://www.linkedin.com/in/diego-francisco-da-silva/)**: diego-francisco-da-silva
+- **[GitHub](https://github.com/diegofranciscodasilva)**: diegofranciscodasilva
+- **[Instagram](https://www.instagram.com/diego_francisco_da_silva/)**: @diego_francisco_da_silva
 
 ---
 

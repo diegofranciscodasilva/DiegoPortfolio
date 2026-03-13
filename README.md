@@ -45,7 +45,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
   - Botão "Voltar ao Topo" que aparece dinamicamente.
 
 - **📧 Formulário de Contato**:
-  - Configurado com `mailto` para abrir diretamente o cliente de e-mail do usuário, facilitando o contato rápido.
+  - Configurado com `FormSubmit.co` para envio rápido da mensagem do usuário, facilitando o contato rápido.
 
 ---
 

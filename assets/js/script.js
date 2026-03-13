@@ -85,13 +85,13 @@ sr.reveal(`.home_perfil, .about_image, .contact_mail`, { origin: "right" })
 sr.reveal(`.home_name, .home_info, .about_container .section_title-1, .about_info, .contact_social, .contact_data`, { origin: "left" })
 sr.reveal(`.services_card, .projects_card`, { interval: 100 })
 
-const contactForm = document.getElementById("contact-form-html")
+const contactFormAction = document.getElementById("contact-form-html")
 
-if (contactForm) {
-    contactForm.addEventListener("submit", () => {
+if (contactFormAction) {
+    contactFormAction.addEventListener("submit", () => {
 
         setTimeout(() => {
-            contactForm.reset()
-        }, 200)
+            contactFormAction.reset()
+        }, 1000)
     })
 }

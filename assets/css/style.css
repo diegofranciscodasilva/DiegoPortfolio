@@ -270,6 +270,7 @@ body.dark-theme {
         background-color: hsla(0, 0%, 0%, .75);
         width: 100%;
         text-align: center;
+        -webkit-backdrop-filter: blur(8px);
         backdrop-filter: blur(8px);
         transition: top .4s;
     }
@@ -1124,9 +1125,7 @@ body.dark-theme {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         grid-template-rows: auto;
-        /* Reseta as linhas do grid */
         row-gap: 2.5rem;
-        /* Adiciona um espaço entre as linhas */
     }
 
     .contact_mail {
@@ -1330,10 +1329,6 @@ body.dark-theme {
         font-size: 1.25rem;
     }
 
-    .home_perfil .geometric_box {
-        /*top: 15rem;*/
-    }
-
     .home_arrow {
         top: 4.5rem;
         left: -8rem;
@@ -1343,7 +1338,6 @@ body.dark-theme {
 
     .home_line {
         left: -6rem;
-        /*-15*/
         bottom: 4rem;
         width: 80px;
         rotate: 30deg;

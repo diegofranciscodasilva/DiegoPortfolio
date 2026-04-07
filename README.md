@@ -53,11 +53,11 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
 
 O site está dividido nas seguintes seções:
 
-1.  **Home**: Apresentação inicial com foto, breve descrição e redes sociais.
-2.  **Sobre**: Detalhes sobre minha trajetória, foco em Engenharia de Software e Skills.
-3.  **Serviços**: Área destacando o que ofereço (Front-End, Development, Mobile App).
-4.  **Projetos**: Galeria (Grid) mostrando trabalhos realizados com links para repositório e deploy.
-5.  **Contato**: Formulário funcional e links alternativos para redes sociais.
+1. **Home**: Apresentação inicial com foto, breve descrição e redes sociais.
+2. **Sobre**: Detalhes sobre minha trajetória, foco em Engenharia de Software e Skills.
+3. **Serviços**: Área destacando o que ofereço (Front-End, Development, Mobile App).
+4. **Projetos**: Galeria (Grid) mostrando trabalhos realizados com links para repositório e deploy.
+5. **Contato**: Formulário funcional e links alternativos para redes sociais.
 
 ---
 

@@ -3,10 +3,8 @@
 ![Preview do Portfólio](assets/images/capabranca.png)
 ![Preview do Portfólio](assets/images/capapreta.png)
 
-<p align="center">
-  <img alt="Project Status" src="https://img.shields.io/badge/STATUS-FINALIZADO-green">
-  <img alt="License" src="https://img.shields.io/badge/LICENSE-MIT-blue">
-</p>
+![Project Status](https://img.shields.io/badge/STATUS-FINALIZADO-green)
+![License](https://img.shields.io/badge/LICENSE-MIT-blue)
 
 ## 📄 Descrição
 
@@ -63,14 +61,16 @@ O site está dividido nas seguintes seções:
 
 ## 👨‍💻 Autor
 
-**Diego Francisco da Silva**
+### Diego Francisco da Silva
 
 Desenvolvedor Front-End em formação e estudante de Engenharia de Software.
 
 - **[LinkedIn](https://www.linkedin.com/in/diego-francisco-da-silva/)**: diego-francisco-da-silva
 - **[GitHub](https://github.com/diegofranciscodasilva)**: diegofranciscodasilva
 - **[Instagram](https://www.instagram.com/diego_francisco_da_silva/)**: @diego_francisco_da_silva
+- **[Instagram](https://www.instagram.com/dev.software.web/)**: @dev.software.web
+- **[Linktree](https://linktr.ee/diegofranciscodasilva)**: diegofranciscodasilva
 
 ---
 
-<p align="center">Feito com ❤️ por Diego.</p>
+Feito com ❤️ por Diego.

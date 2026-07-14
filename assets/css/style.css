@@ -1081,6 +1081,44 @@ body.dark-theme {
     bottom: 3rem;
 }
 
+.wpp-btn {
+    position: fixed;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    right: auto;
+    background-color: var(--black-color-light);
+    color: var(--white-color);
+    width: clamp(2.75rem, 4vw, 3.5rem);
+    height: clamp(2.75rem, 4vw, 3.5rem);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1.2rem, 2vw, 1.75rem);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: var(--z-tooltip);
+    animation: pulse-wpp 1.4s ease-in-out infinite;
+    transition: transform 0.3s ease;
+}
+
+.wpp-btn:hover {
+    transform: scale(1.05);
+}
+
+@keyframes pulse-wpp {
+
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.55);
+    }
+
+    50% {
+        transform: scale(1.06);
+        box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+    }
+}
+
 @media screen and (max-width: 340px) {
     .container {
         margin-inline: 1rem;

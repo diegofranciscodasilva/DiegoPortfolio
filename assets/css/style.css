@@ -1250,6 +1250,32 @@ body.dark-theme {
         right: -2.5rem;
     }
 
+    .about_info {
+        min-width: 0;
+        padding-left: 0;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+
+    .about_description,
+    .about_item {
+        overflow-wrap: anywhere;
+    }
+
+    .about_buttons {
+        flex-wrap: wrap;
+        gap: .75rem;
+    }
+
+    .about_buttons .button {
+        flex: 1 1 100%;
+        padding: .9rem 1rem;
+    }
+
+    .about_buttons .button_ghost {
+        padding: .45rem;
+    }
+
     .contact_data {
         width: 100%;
     }

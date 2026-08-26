@@ -20,7 +20,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
 
 - **HTML5**: Estruturação semântica do conteúdo.
 - **CSS3**: Estilização avançada com Flexbox, CSS Grid, Variáveis CSS (Custom Properties) e Media Queries.
-- **JavaScript (ES6+)**: Lógica para interações, menu mobile, tema escuro/claro e links ativos.
+- **JavaScript (ES6+)**: Lógica para interações, menu mobile, tema escuro/claro, links ativos e carrossel automático de projetos.
 - **[Remix Icon](https://remixicon.com/)**: Biblioteca de ícones utilizada para interface e redes sociais.
 - **[ScrollReveal.js](https://scrollrevealjs.org/)**: Biblioteca para animações suaves de entrada dos elementos ao rolar a página.
 - **[Google Fonts](https://fonts.google.com/)**: Fonte _Bai Jamjuree_ para tipografia moderna.
@@ -40,7 +40,12 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
   - Menu _hamburguer_ para dispositivos móveis com animação de entrada.
   - _Scroll Reveal_: Elementos surgem suavemente conforme a página é rolada.
   - _Active Link_: O item do menu correspondente à seção visível na tela é destacado automaticamente.
-  - Botão "Voltar ao Topo" que aparece dinamicamente.
+  - Carrossel infinito de projetos em duas linhas, com movimento contínuo em sentidos opostos.
+  - Botão "Voltar ao Topo" que aparece dinamicamente, com animação suave de flutuação e contorno pulsante.
+
+- **🔗 Redes e Presença Digital**:
+  - Links para GitHub, Instagram, LinkedIn e WhatsApp na Home, na seção Sobre e na área de Contato.
+  - Divulgação do projeto [dev.software.web](https://diegofranciscodasilva.github.io/dev-software-web/) e do perfil [@dev.software.web](https://www.instagram.com/dev.software.web/).
 
 - **📧 Formulário de Contato**:
   - Configurado com `FormSubmit.co` para envio rápido da mensagem do usuário, facilitando o contato rápido.
@@ -52,9 +57,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
 O site está dividido nas seguintes seções:
 
 1. **Home**: Apresentação inicial com foto, breve descrição e redes sociais.
-2. **Sobre**: Detalhes sobre minha trajetória, foco em Engenharia de Software e Skills.
-3. **Serviços**: Área destacando o que ofereço (Front-End, Development, Mobile App).
-4. **Projetos**: Galeria (Grid) mostrando trabalhos realizados com links para repositório e deploy.
+2. **Sobre**: Apresentação da minha trajetória como desenvolvedor Front-End freelancer, da marca dev.software.web e das minhas Skills.
+3. **Serviços**: Área em grid destacando o que ofereço (Front-End, Development, Mobile App).
+4. **Projetos**: Carrossel infinito em duas linhas com projetos realizados e links para repositório e deploy.
 5. **Contato**: Formulário funcional e links alternativos para redes sociais.
 
 ---
@@ -65,11 +70,11 @@ O site está dividido nas seguintes seções:
 
 Desenvolvedor Front-End em formação e estudante de Engenharia de Software.
 
+- **[Site Empresa](https://diegofranciscodasilva.github.io/dev-software-web/)**: dev.software.web Site Empresa
 - **[LinkedIn](https://www.linkedin.com/in/diego-francisco-da-silva/)**: diego-francisco-da-silva
 - **[GitHub](https://github.com/diegofranciscodasilva)**: diegofranciscodasilva
 - **[Instagram](https://www.instagram.com/diego_francisco_da_silva/)**: @diego_francisco_da_silva
 - **[Instagram](https://www.instagram.com/dev.software.web/)**: @dev.software.web
-- **[Linktree](https://linktr.ee/diegofranciscodasilva)**: diegofranciscodasilva
 
 ---
 

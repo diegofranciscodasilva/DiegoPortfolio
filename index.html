@@ -64,15 +64,16 @@
                         <a href="#contact" class="nav_link nav_link-button">Contato</a>
                     </li>
                 </ul>
-                <div class="nav_close" id="nav_close">
-                    <i class="ri-close-line"></i>
-                </div>
+                <button class="nav_close" id="nav_close" type="button" aria-label="Fechar menu">
+                    <i class="ri-close-line" aria-hidden="true"></i>
+                </button>
             </div>
             <div class="nav_buttons">
-                <i class="ri-moon-line change_theme" id="theme-button"></i>
-                <div class="nav_toggle" id="nav_toggle">
-                    <i class="ri-menu-4-line"></i>
-                </div>
+                <button class="ri-moon-line change_theme" id="theme-button" type="button"
+                    aria-label="Ativar tema escuro"></button>
+                <button class="nav_toggle" id="nav_toggle" type="button" aria-label="Abrir menu">
+                    <i class="ri-menu-4-line" aria-hidden="true"></i>
+                </button>
             </div>
         </nav>
     </header>
@@ -103,6 +104,10 @@
                         <a href="https://www.linkedin.com/in/diego-francisco-da-silva/" target="_blank" rel="noopener"
                             class="home_social-link">
                             <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://wa.me/5511915466889" target="_blank" rel="noopener noreferrer"
+                            class="home_social-link" title="Meu WhatsApp Business">
+                            <i class="ri-whatsapp-line"></i>
                         </a>
                     </div>
                 </div>
@@ -139,11 +144,16 @@
                 </div>
                 <div class="about_info">
                     <p class="about_description">
-                        Atuo como <b>FreeLancer</b>, desenvolvendo interfaces com HTML, CSS e JavaScript. Busco
-                        oportunidade na
-                        área de <b>Programação / Desenvolvimento Web - Front End,</b> onde eu possa consolidar os
-                        conceitos,
-                        evoluir tecnicamente e contribuir com dedicação e comprometimento.
+                        Estou dando meus primeiros passos como <b>Desenvolvedor Front-End FreeLancer</b>, transformando
+                        ideias em experiências digitais modernas, funcionais e responsivas. Para apresentar meu trabalho
+                        e ajudar marcas a conquistarem seu espaço na web,
+                        criei a <b><a href="https://diegofranciscodasilva.github.io/dev-software-web/" target="_blank"
+                                rel="noopener" class="about_link">dev.software.web</a></b>, um projeto que conecta
+                        criatividade, código
+                        e
+                        propósito.
+                        Conheça
+                        meu trabalho e acompanhe essa jornada de evolução, um projeto de cada vez.
                     </p>
                     <ul class="about_list">
                         <li class="about_item">
@@ -157,6 +167,14 @@
                         <a href="https://www.linkedin.com/in/diego-francisco-da-silva/" target="_blank" rel="noopener"
                             class="button_ghost">
                             <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://github.com/diegofranciscodasilva" target="_blank" rel="noopener"
+                            class="button_ghost">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/dev.software.web/" target="_blank" rel="noopener"
+                            class="button_ghost">
+                            <i class="ri-instagram-line"></i>
                         </a>
                     </div>
                 </div>
@@ -190,7 +208,8 @@
                         </div>
                         <h2 class="services_title">Development</h2>
                         <p class="services_description">
-                            Desenvolvimento de interatividade e lógica em páginas web utilizando JavaScript, aplicando
+                            Desenvolvimento de interatividade e lógica em páginas web utilizando JavaScript,
+                            aplicando
                             boas práticas de programação.
                         </p>
                     </div>
@@ -204,7 +223,8 @@
                         </div>
                         <h2 class="services_title">Mobile App</h2>
                         <p class="services_description">
-                            Adaptação de layouts para dispositivos móveis (Design Responsivo), garantindo uma navegação
+                            Adaptação de layouts para dispositivos móveis (Design Responsivo), garantindo uma
+                            navegação
                             fluida em celulares e tablets.
                         </p>
                     </div>
@@ -215,514 +235,554 @@
             <h2 class="section_title-1">
                 <span>Projetos</span>
             </h2>
-            <div class="projects_container container grid">
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/bandaqueen.png" alt="Imagem do projeto site banda queen"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Banda Queen</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva em homenagem a Banda Queen</p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/banda-queen_landingpage" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/banda-queen_landingpage/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/sitereipele.png"
-                            alt="Imagem do projeto site Rei Pelé - homenagem ao Rei do Futebol" class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Rei Pelé - O Rei do Futebol</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva em homenagem ao Rei Pelé, o Rei do
-                            Futebol.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/Rei-Pele_LandingPage" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/Rei-Pele_LandingPage/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/ayrtonsenna.png"
-                            alt="Imagem do projeto site Ayrton Senna - homenagem ao melhor piloto de todos os tempos"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Ayrton Senna - O Legado de um Campeão</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva em homenagem ao Ayrton Senna.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/AyrtonSenna_LandingPage" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/AyrtonSenna_LandingPage/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/cr7.png" alt="Imagem do projeto site CR7 - homenagem ao CR7"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">CR7 - Lenda de Portugal</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva em homenagem ao CR7.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/CR7_LandingPage" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/CR7_LandingPage/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/staybnb.png" alt="Imagem do projeto site staybnb - clone airbnb"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Staybnb</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva no padrão Airbnb, clone do site Airbnb.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/staybnb-clone_airbnb" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/staybnb-clone_airbnb/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/foodin.png" alt="Imagem do projeto site restaurante"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Food In</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva, modelo para restaurantes e lanchonetes.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/foodin-landingpage" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/foodin-landingpage/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/next.png" alt="Imagem do projeto site de tecnologia"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">WebSite Next</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva, modelo para fins tecnológicos.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/next-website" target="_blank" rel="noopener"
-                            class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/next-website/" target="_blank" rel="noopener"
-                            class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/eduford.png" alt="Imagem do projeto site universidade"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">WebSite EduFord</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva, modelo para fins educacionais.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/eduford-website" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/eduford-website/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/clonemicrosoft.png" alt="Imagem do projeto clone site microsoft"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Clone site Microsoft</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva no padrão Microsoft, clone do site da
-                            Microsoft.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/clone-site_microsoft" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/clone-site_microsoft/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/clonenubank.png" alt="Imagem do projeto clone site nubank"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Clone site Nubank</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva no padrão Nubank, clone do site da Nubank.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/clone-site_nubank" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/clone-site_nubank/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/clonesiteapple.png" alt="Imagem do projeto clone site apple"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Clone site Apple</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva no padrão Apple. Clone do site da Apple.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/clone-apple_page" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/clone-apple_page/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/foodpage.png" alt="Imagem do projeto food page" class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Landing Page Food Page</h2>
-                        <p class="projects_description">
-                            Uma landing page estilizada, moderna e responsiva para um restaurante/serviço de delivery de
-                            comida - refeições.</p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/food-page" target="_blank" rel="noopener"
-                            class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/food-page/" target="_blank" rel="noopener"
-                            class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/fonedeouvido.png" alt="Imagem do projeto página fone de ouvido"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Página de venda de produto (Fone de ouvido)</h2>
-                        <p class="projects_description">
-                            Este é um projeto de landing page para um produto de fone de ouvido Bluetooth da TechStore.
-                            A página apresenta detalhes do produto, incluindo imagens, especificações, preço e opções de
-                            compra.</p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/landingpage-foneouvido" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/landingpage-foneouvido/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/starbucks.png" alt="Imagem do projeto clone starbucks"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Clone StarBucks</h2>
-                        <p class="projects_description">
-                            Este projeto web foi desenvolvido para fornecer informações detalhadas sobre produtos e
-                            serviços da StarBucks, um clone do site da StarBucks.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/landingpage-starbucks" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/landingpage-starbucks/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/landingpage.png" alt="Imagem do projeto landing page"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Landing Page</h2>
-                        <p class="projects_description">
-                            Esta é uma página única desenvolvida com HTML e CSS, projetada para apresentar informações
-                            sobre um produto ou serviço de maneira atraente. A Landing Page inclui diversas seções, cada
-                            uma servindo para um propósito específico.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/landing-page" target="_blank" rel="noopener"
-                            class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/landing-page/" target="_blank" rel="noopener"
-                            class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/clonewikipedia.png" alt="Imagem do projeto clone wikipedia"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Clone Wikipedia</h2>
-                        <p class="projects_description">
-                            Este projeto foi desenvolvido com HTML, CSS e JavaScript para criar uma versão simplificada
-                            da Wikipedia. Neste clone, você pode digitar um texto na barra de pesquisa, e os resultados
-                            da busca serão exibidos abaixo em divs, permitindo que você escolha o resultado desejado.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/clone-wikipedia" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/clone-wikipedia/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/clonesiteamazon.png" alt="Imagem do projeto clone amazon prime"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Clone Amazon Prime</h2>
-                        <p class="projects_description">
-                            Este projeto consiste na criação de uma página inicial interativa para um site de comércio
-                            eletrônico, fortemente inspirada nos elementos visuais e de interação da Amazon. Utilizando
-                            HTML, CSS e JavaScript, o objetivo é oferecer uma experiência de usuário dinâmica semelhante
-                            à conhecida plataforma de compras online.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/siteamazon" target="_blank" rel="noopener"
-                            class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/siteamazon/" target="_blank" rel="noopener"
-                            class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/jogogenius.png" alt="Imagem do projeto jogo genius"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Jogo Genius</h2>
-                        <p class="projects_description">
-                            Este projeto foi desenvolvido com HTML, CSS e JavaScript para criar uma versão online do
-                            clássico jogo de memória, onde os jogadores precisam repetir uma sequência de cores gerada
-                            aleatoriamente.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/jogo-genius" target="_blank" rel="noopener"
-                            class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/jogo-genius/" target="_blank" rel="noopener"
-                            class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects_card">
-                    <div class="projects_image">
-                        <img src="./assets/images/paginafacebook.png" alt="Imagem do projeto página inicial facebook"
-                            class="projects_img">
-                        <a href="#" class="projects_button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects_content">
-                        <h3 class="projects_subtitle">WebSite</h3>
-                        <h2 class="projects_title">Página Inicial Facebook</h2>
-                        <p class="projects_description">
-                            Este é um projeto simples de recriação da página inicial do Facebook usando HTML e CSS. O
-                            objetivo principal é praticar habilidades de codificação front-end e layout responsivo.
-                        </p>
-                    </div>
-                    <div class="projects_buttons">
-                        <a href="https://github.com/diegofranciscodasilva/projeto_facebook" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-github-fill"></i> View
-                        </a>
-                        <a href="https://diegofranciscodasilva.github.io/projeto_facebook/" target="_blank"
-                            rel="noopener" class="projects_link">
-                            <i class="ri-external-link-line"></i> View
-                        </a>
-                    </div>
-                </article>
+            <div class="projects_viewport">
+                <div class="projects_container container">
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/bandaqueen.png" alt="Imagem do projeto site banda queen"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/banda-queen_landingpage" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Banda Queen</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva em homenagem a Banda Queen</p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/banda-queen_landingpage" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/banda-queen_landingpage/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/sitereipele.png"
+                                alt="Imagem do projeto site Rei Pelé - homenagem ao Rei do Futebol"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/Rei-Pele_LandingPage" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Rei Pelé - O Rei do Futebol</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva em homenagem ao Rei Pelé, o Rei do
+                                Futebol.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/Rei-Pele_LandingPage" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/Rei-Pele_LandingPage/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/ayrtonsenna.png"
+                                alt="Imagem do projeto site Ayrton Senna - homenagem ao melhor piloto de todos os tempos"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/AyrtonSenna_LandingPage" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Ayrton Senna - O Legado de um Campeão</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva em homenagem ao Ayrton Senna.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/AyrtonSenna_LandingPage" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/AyrtonSenna_LandingPage/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/cr7.png" alt="Imagem do projeto site CR7 - homenagem ao CR7"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/CR7_LandingPage" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">CR7 - Lenda de Portugal</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva em homenagem ao CR7.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/CR7_LandingPage" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/CR7_LandingPage/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/staybnb.png" alt="Imagem do projeto site staybnb - clone airbnb"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/staybnb-clone_airbnb" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Staybnb</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva no padrão Airbnb, clone do site
+                                Airbnb.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/staybnb-clone_airbnb" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/staybnb-clone_airbnb/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/foodin.png" alt="Imagem do projeto site restaurante"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/foodin-landingpage" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Food In</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva, modelo para restaurantes e
+                                lanchonetes.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/foodin-landingpage" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/foodin-landingpage/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/next.png" alt="Imagem do projeto site de tecnologia"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/next-website" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">WebSite Next</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva, modelo para fins tecnológicos.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/next-website" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/next-website/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/eduford.png" alt="Imagem do projeto site universidade"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/eduford-website" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">WebSite EduFord</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva, modelo para fins educacionais.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/eduford-website" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/eduford-website/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/clonemicrosoft.png" alt="Imagem do projeto clone site microsoft"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/clone-site_microsoft" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Clone site Microsoft</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva no padrão Microsoft, clone do site da
+                                Microsoft.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/clone-site_microsoft" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/clone-site_microsoft/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/clonenubank.png" alt="Imagem do projeto clone site nubank"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/clone-site_nubank" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Clone site Nubank</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva no padrão Nubank, clone do site da
+                                Nubank.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/clone-site_nubank" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/clone-site_nubank/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/clonesiteapple.png" alt="Imagem do projeto clone site apple"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/clone-apple_page" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Clone site Apple</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva no padrão Apple. Clone do site da
+                                Apple.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/clone-apple_page" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/clone-apple_page/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/foodpage.png" alt="Imagem do projeto food page"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/food-page" target="_blank" rel="noopener"
+                                class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Landing Page Food Page</h2>
+                            <p class="projects_description">
+                                Uma landing page estilizada, moderna e responsiva para um restaurante/serviço de
+                                delivery de
+                                comida - refeições.</p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/food-page" target="_blank" rel="noopener"
+                                class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/food-page/" target="_blank" rel="noopener"
+                                class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/fonedeouvido.png" alt="Imagem do projeto página fone de ouvido"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/landingpage-foneouvido" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Página de venda de produto (Fone de ouvido)</h2>
+                            <p class="projects_description">
+                                Este é um projeto de landing page para um produto de fone de ouvido Bluetooth da
+                                TechStore.
+                                A página apresenta detalhes do produto, incluindo imagens, especificações, preço e
+                                opções de
+                                compra.</p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/landingpage-foneouvido" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/landingpage-foneouvido/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/starbucks.png" alt="Imagem do projeto clone starbucks"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/landingpage-starbucks" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Clone StarBucks</h2>
+                            <p class="projects_description">
+                                Este projeto web foi desenvolvido para fornecer informações detalhadas sobre produtos e
+                                serviços da StarBucks, um clone do site da StarBucks.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/landingpage-starbucks" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/landingpage-starbucks/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/landingpage.png" alt="Imagem do projeto landing page"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/landing-page" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Landing Page</h2>
+                            <p class="projects_description">
+                                Esta é uma página única desenvolvida com HTML e CSS, projetada para apresentar
+                                informações
+                                sobre um produto ou serviço de maneira atraente. A Landing Page inclui diversas seções,
+                                cada
+                                uma servindo para um propósito específico.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/landing-page" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/landing-page/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/clonewikipedia.png" alt="Imagem do projeto clone wikipedia"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/clone-wikipedia" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Clone Wikipedia</h2>
+                            <p class="projects_description">
+                                Este projeto foi desenvolvido com HTML, CSS e JavaScript para criar uma versão
+                                simplificada
+                                da Wikipedia. Neste clone, você pode digitar um texto na barra de pesquisa, e os
+                                resultados
+                                da busca serão exibidos abaixo em divs, permitindo que você escolha o resultado
+                                desejado.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/clone-wikipedia" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/clone-wikipedia/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/clonesiteamazon.png" alt="Imagem do projeto clone amazon prime"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/siteamazon" target="_blank" rel="noopener"
+                                class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Clone Amazon Prime</h2>
+                            <p class="projects_description">
+                                Este projeto consiste na criação de uma página inicial interativa para um site de
+                                comércio
+                                eletrônico, fortemente inspirada nos elementos visuais e de interação da Amazon.
+                                Utilizando
+                                HTML, CSS e JavaScript, o objetivo é oferecer uma experiência de usuário dinâmica
+                                semelhante
+                                à conhecida plataforma de compras online.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/siteamazon" target="_blank" rel="noopener"
+                                class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/siteamazon/" target="_blank" rel="noopener"
+                                class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/jogogenius.png" alt="Imagem do projeto jogo genius"
+                                class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/jogo-genius" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Jogo Genius</h2>
+                            <p class="projects_description">
+                                Este projeto foi desenvolvido com HTML, CSS e JavaScript para criar uma versão online do
+                                clássico jogo de memória, onde os jogadores precisam repetir uma sequência de cores
+                                gerada
+                                aleatoriamente.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/jogo-genius" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/jogo-genius/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                    <article class="projects_card">
+                        <div class="projects_image">
+                            <img src="./assets/images/paginafacebook.png"
+                                alt="Imagem do projeto página inicial facebook" class="projects_img">
+                            <a href="https://github.com/diegofranciscodasilva/projeto_facebook" target="_blank"
+                                rel="noopener" class="projects_button button">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                        <div class="projects_content">
+                            <h3 class="projects_subtitle">WebSite</h3>
+                            <h2 class="projects_title">Página Inicial Facebook</h2>
+                            <p class="projects_description">
+                                Este é um projeto simples de recriação da página inicial do Facebook usando HTML e CSS.
+                                O
+                                objetivo principal é praticar habilidades de codificação front-end e layout responsivo.
+                            </p>
+                        </div>
+                        <div class="projects_buttons">
+                            <a href="https://github.com/diegofranciscodasilva/projeto_facebook" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+                            <a href="https://diegofranciscodasilva.github.io/projeto_facebook/" target="_blank"
+                                rel="noopener" class="projects_link">
+                                <i class="ri-external-link-line"></i> View
+                            </a>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
         <section class="contact section" id="contact">
@@ -777,7 +837,7 @@
                         class="contact_social-arrow">
                     <div class="contact_social-data">
                         <div>
-                            <p class="contact_social-description-1">Vamos compartilhar conhecimento ?</p>
+                            <p class="contact_social-description-1">Vamos compartilhar conhecimento.</p>
                             <p class="contact_social-description-2">Acesse minhas redes sociais.</p>
                         </div>
                         <div class="contact_social-links">
@@ -787,6 +847,9 @@
                                 class="contact_social-link"><i class="ri-instagram-line"></i></a>
                             <a href="https://www.linkedin.com/in/diego-francisco-da-silva/" target="_blank"
                                 rel="noopener" class="contact_social-link"><i class="ri-linkedin-box-fill"></i></a>
+                            <a href="https://wa.me/5511915466889" target="_blank" rel="noopener noreferrer"
+                                class="contact_social-link" title="Meu WhatsApp Business"><i
+                                    class="ri-whatsapp-line"></i></a>
                         </div>
                     </div>
                 </div>
@@ -806,15 +869,13 @@
                     <a href="#projects" class="footer_link">Projetos</a>
                 </li>
             </ul>
-            <span class="footer_copy">Feito com ❤️ por <a href="#">Diego.</a> &#169;</span>
+            <span class="footer_copy">Feito com ❤️ por <a
+                    href="https://diegofranciscodasilva.github.io/dev-software-web/" target="_blank"
+                    rel="noopener noreferrer">dev.software.web &#169;</a></span>
         </div>
     </footer>
     <a href="#" class="scrollup" id="scroll-up">
         <i class="ri-arrow-up-s-line"></i>
-    </a>
-    <a href="https://wa.me/5511915466889" class="wpp-btn" target="_blank" rel="noopener noreferrer"
-        title="Meu WhatsApp Business">
-        <i class="ri-whatsapp-line"></i>
     </a>
     <script src="./assets/js/scrollreveal.min.js"></script>
     <script src="./assets/js/script.js"></script>

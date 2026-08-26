@@ -57,18 +57,23 @@ const darkTheme = "dark-theme"
 const iconTheme = "ri-sun-line"
 
 const selectedTheme = localStorage.getItem("selected-theme")
-const selectedIcon = localStorage.getItem("selected-icon")
 
 const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? "dark" : "light"
-const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? "ri-moon-line" : "ri-sun-line"
+const getCurrentIcon = () => document.body.classList.contains(darkTheme) ? iconTheme : "ri-moon-line"
+const updateThemeButton = () => {
+    const isDark = getCurrentTheme() === "dark"
+    themeButton.classList.toggle("ri-moon-line", !isDark)
+    themeButton.classList.toggle(iconTheme, isDark)
+    themeButton.setAttribute("aria-label", isDark ? "Ativar tema claro" : "Ativar tema escuro")
+}
 
 if (selectedTheme) {
     document.body.classList[selectedTheme === "dark" ? "add" : "remove"](darkTheme)
-    themeButton.classList[selectedIcon === "ri-moon-line" ? "add" : "remove"](iconTheme)
 }
+updateThemeButton()
 themeButton.addEventListener("click", () => {
     document.body.classList.toggle(darkTheme)
-    themeButton.classList.toggle(iconTheme)
+    updateThemeButton()
 
     localStorage.setItem("selected-theme", getCurrentTheme())
     localStorage.setItem("selected-icon", getCurrentIcon())
@@ -83,7 +88,25 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home_perfil, .about_image, .contact_mail`, { origin: "right" })
 sr.reveal(`.home_name, .home_info, .about_container .section_title-1, .about_info, .contact_social, .contact_data`, { origin: "left" })
-sr.reveal(`.services_card, .projects_card`, { interval: 100 })
+sr.reveal(`.services_card`, { interval: 100 })
+
+const projectsTrack = document.querySelector(".projects_container")
+const projectsCards = projectsTrack ? [...projectsTrack.children] : []
+
+if (projectsTrack && projectsCards.length) {
+    const projectRows = [document.createElement("div"), document.createElement("div")]
+    projectRows.forEach(row => row.className = "projects_row")
+
+    projectsCards.forEach((projectCard, index) => {
+        projectRows[index % 2].appendChild(projectCard)
+    })
+
+    projectRows.forEach((row, rowIndex) => {
+        const rowCards = [...row.children]
+        rowCards.forEach(card => row.appendChild(card.cloneNode(true)))
+        projectsTrack.appendChild(row)
+    })
+}
 
 const contactFormAction = document.getElementById("contact-form-html")
 

@@ -70,7 +70,7 @@ O site está dividido nas seguintes seções:
 
 Desenvolvedor Front-End em formação e estudante de Engenharia de Software.
 
-- **[Site Empresa](https://diegofranciscodasilva.github.io/dev-software-web/)**: dev.software.web Site Empresa
+- **[Site Empresa](https://diegofranciscodasilva.github.io/dev-software-web/)**: dev.software.web
 - **[LinkedIn](https://www.linkedin.com/in/diego-francisco-da-silva/)**: diego-francisco-da-silva
 - **[GitHub](https://github.com/diegofranciscodasilva)**: diegofranciscodasilva
 - **[Instagram](https://www.instagram.com/diego_francisco_da_silva/)**: @diego_francisco_da_silva
